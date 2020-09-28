@@ -1,0 +1,7 @@
+{
+    "record_id_key":"id",
+    "record_vec_key":"vec",
+    "vec_dim":5, 
+    "port":8888, 
+    "vec_dict_path":"../test_data/json_lines.txt"
+}

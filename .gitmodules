@@ -1,0 +1,12 @@
+[submodule "include/s4v2v/3rdparty/cpp-httplib"]
+	path = include/v2vk/3rdparty/cpp-httplib
+	url = https://github.com/yhirose/cpp-httplib.git
+[submodule "include/s4v2v/3rdparty/cill"]
+	path = include/v2vk/3rdparty/cill
+	url = https://github.com/innerNULL/cill.git
+[submodule "include/s4v2v/3rdparty/wrapidjson"]
+	path = include/v2vk/3rdparty/wrapidjson
+	url = https://github.com/innerNULL/wrapidjson.git
+[submodule "include/s4v2v/3rdparty/annoy"]
+	path = include/v2vk/3rdparty/annoy
+	url = https://github.com/spotify/annoy.git

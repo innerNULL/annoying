@@ -1,0 +1,4 @@
+/Users/yutong10/Documents/projects/github/v2vk/build/CMakeFiles/rebuild_cache.dir
+/Users/yutong10/Documents/projects/github/v2vk/build/CMakeFiles/edit_cache.dir
+/Users/yutong10/Documents/projects/github/v2vk/build/CMakeFiles/annoy_v2v_server.dir
+/Users/yutong10/Documents/projects/github/v2vk/build/CMakeFiles/annoy_demo.dir
