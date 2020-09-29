@@ -11,7 +11,8 @@ This is a header only lib, you can just put the path in your project if you need
 * **workflow**(https://github.com/sogou/workflow): An easy using cpp web framework.
 
 ## Starts Servering
-* Update the config file in `conf`.
-* run `mkdir build && cd build && cmake ../ && make -j7`
-* run `./annoy_v2v_server ../conf/annoy_v2v_server_dev.json`
-* test service, run `curl http://127.0.0.1:8888?top_n=10&query_vec=0.52,0.85,0.36,0.6,0.28,0.04,0.7,0.65,0.65,0.03,0.87,0.69,0.97,0.37,0.71,0.26,0.53,0.01,0.67,0.27,0.12,0.94,0.18,0.84,0.86,0.31,0.8,0.62,0.61,0.82,0.12,0.11`
+* Config: Update the config file in `conf`.
+* Build: Run `mkdir build && cd build && cmake ../ && make -j7`.
+* Generate test data: Run `python ../tools/test_data_generator.py`.
+* Start service: Run `./annoy_v2v_server ../conf/annoy_v2v_server_dev.json`
+* Test service: Run `curl http://127.0.0.1:8888?top_n=10&query_vec=0.52,0.85,0.36,0.6,0.28,0.04,0.7,0.65,0.65,0.03,0.87,0.69,0.97,0.37,0.71,0.26,0.53,0.01,0.67,0.27,0.12,0.94,0.18,0.84,0.86,0.31,0.8,0.62,0.61,0.82,0.12,0.11`
