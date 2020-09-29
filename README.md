@@ -6,15 +6,15 @@ Besides of that, the project also support servitization of vector-indexing, for 
 The item vector data should be saving in a text file, I call it "**vector dict**", each row shoud be a json string, which represents a single records, the reason using json format is, json is very elastic, and besides record id and vector, we can also saving some extension data in json and returned together with nearest items' id and score during quering.
 
 ## Conf
-* **record_id_key**: Key name in vector dict json line which represent record's identity.
-* **record_vec_key**: Key name in vector dict json line which represent record's representing vector.
+* **record_id_key**: Key name in vector dict json line which represents record's identity.
+* **record_vec_key**: Key name in vector dict json line which represents record's representing vector.
 * **vec_dim**: Representing vector's dimention.
 * **port**: Service port.
 * **vec_dict_path**: Vector dict's local path.
 
 ## Dependencies
 This is a header only lib, you can just put the path in your project if you need to integrade it, following are the dependencies.
-* **OpenSSL**: Depended by sougou workflow, if mac, run `export OPENSSL_ROOT_DIR=/usr/local/opt/openss` before compile v2vk and workflow.
+* **OpenSSL**: Depended by sougou workflow, if mac, run `export OPENSSL_ROOT_DIR=/usr/local/opt/openssl` before compile v2vk and workflow.
 * **workflow**(https://github.com/sogou/workflow): An easy using cpp web framework.
 
 ## Starts Servering
