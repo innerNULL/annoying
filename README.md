@@ -19,6 +19,7 @@ This is a header only lib, you can just put the path in your project if you need
 
 ## Starts Servering
 * **Config**: Update the config file in `conf`.
+* **Update submodules**: Run `git submodule init && git submodule update`.
 * **Build**: Run `mkdir build && cd build && cmake ../ && make -j7`.
 * **Generate test data**: Run `python ../tools/test_data_generator.py`.
 * **Start service**: Run `./annoy_v2v_server ../conf/annoy_v2v_server_dev.json`
